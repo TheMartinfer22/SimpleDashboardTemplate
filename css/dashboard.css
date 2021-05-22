@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    padding: 70px;
+    background-color: rgb(242,244,251);
+}
+
+span, td, th {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.row_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo_page1 {
+    font-size: 40px;
+    font-family: 'Farro', sans-serif;
+    font-weight: bold;
+}
+
+.logo_page2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.search {
+    padding: 8px;
+    border: none;
+    outline-style: none;
+    border-radius: 10px;
+}
+
+.icon_search {
+    align-items: center;
+    padding-right: 6px;
+}
+
+.search_bar {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search::placeholder {
+    padding: 3px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon_logout {
+    cursor: pointer;
+    padding-right: 3px;
+}
+
+
+.avatar_img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+}
+
+.row_2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.dash {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_3 {
+    background-color: white;
+    display: flex;
+    border-radius: 18px;
+}
+
+th, td {
+    padding: 8px;
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+
+.icon_logout:hover {
+    background-color: rgb(197, 197, 197);
+    opacity: 60%;
+    height: 30px;
+    border-radius: 12px;
+    transition: 1s;
+}
+
+.dash:hover {
+    background-color: rgb(197, 197, 197);
+    opacity: 60%;
+    height: 30px;
+    border-radius: 12px;
+    transition: 1s;
+}
+
+.dash {
+    transition: 3s;
+}
+
+.logo_page1:hover    {
+    font-size: 41px;
+}
+
+.logo_page2:hover {
+    font-size: 18px;
+}
+
+ 
+.actions {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 26px;
+    justify-content: center;
+}
+
+.icon_edit .icon_delete {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.icon_edit {
+    cursor: pointer;
+}
+
+.icon_delete {
+    cursor: pointer;
+}

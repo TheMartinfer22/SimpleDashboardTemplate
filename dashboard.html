@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- A ROW 1 REFERENCIA A PARTE DE CIMA DA PÁGINA-->
+        <div class="row_1">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-gps" width="64" height="64"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="12" r="9" />
+                    <path d="M12 17l-1 -4l-4 -1l9 -4z" />
+                </svg>
+                <span class="logo_page1">
+                    MyVehicles
+                </span>
+                <span class="logo_page2">
+                    .com.br
+                </span>
+            </div>
+            <div class="search_bar">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon_search" width="24" height="24" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="10" cy="10" r="7" />
+                    <line x1="21" y1="21" x2="15" y2="15" />
+                </svg>
+                <input class="search" type="text" placeholder="Pesquise um carro..." size="40">
+            </div>
+            <div class="options">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon_logout" width="24" height="24" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                    <path d="M7 12h14l-3 -3m0 6l3 -3" />
+                </svg>
+                <span class="user_name">Martin Hartfelder</span>
+                <img class="avatar_img" src="avatar.png" alt="Avatar">
+
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <!-- A ROW 2 REFERENCIA A PARTE ESQUERDA DA PÁGINA-->
+        <div class="row_2">
+
+            <div class="dash">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dashboard" width="32"
+                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="13" r="2" />
+                    <line x1="13.45" y1="11.55" x2="15.5" y2="9.5" />
+                    <path d="M6.4 20a9 9 0 1 1 11.2 0z" />
+                </svg>
+                <span>
+                    Dashboard
+                </span>
+            </div>
+
+            <div class="dash">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="32" height="32"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="7" cy="17" r="2" />
+                    <circle cx="17" cy="17" r="2" />
+                    <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+                </svg>
+                <span>
+                    Novo veículo
+                </span>
+            </div>
+
+            <div class="dash">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-bar" width="32"
+                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <rect x="3" y="12" width="6" height="8" rx="1" />
+                    <rect x="9" y="8" width="6" height="12" rx="1" />
+                    <rect x="15" y="4" width="6" height="16" rx="1" />
+                    <line x1="4" y1="20" x2="18" y2="20" />
+                </svg>
+                <span>
+                    Análises
+                </span>
+            </div>
+
+            <div class="dash">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-plus" width="32"
+                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                    <path d="M16 11h6m-3 -3v6" />
+                </svg>
+                <span>
+                    Novo cliente
+                </span>
+            </div>
+
+            <div class="dash">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="32" height="32"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="7" r="4" />
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                </svg>
+                <span>
+                    Sua conta
+                </span>
+            </div>
+
+        </div>
+
+    </nav>
+    <section>
+        <!-- A ROW 3 REFERENCIA A PARTE DO MEIO DA PÁGINA-->
+        <div class="content">
+            <div class="row_3">
+                <tbody>
+                    <tr>
+                        <table class="carros">
+                            <tbody>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Marca</th>
+                                    <th>Modelo do Veículo</th>
+                                    <th>Ano</th>
+                                    <th>Ações</th>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>Acura</td>
+                                    <td>32000 Gasolina</td>
+                                    <td>32000 Diesel</td>
+                                    <td class="actions">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon_edit" width="24" height="24"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" />
+                                            <path d="M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3" />
+                                            <line x1="16" y1="5" x2="19" y2="8" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon_delete" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825"
+                                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <line x1="4" y1="7" x2="20" y2="7" />
+                                            <line x1="10" y1="11" x2="10" y2="17" />
+                                            <line x1="14" y1="11" x2="14" y2="17" />
+                                            <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+                                            <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+                                        </svg>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
